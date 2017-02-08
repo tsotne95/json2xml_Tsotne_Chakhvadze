@@ -2,13 +2,13 @@ JSON2XML
 
 It transforms the json file into an XML file.
 
-To use, it is necessary to install the programs: gcc, bison and flex.
+To use, it is necessary to install the programs: **gcc, bison and flex.**
 
-to compile run:
-make
+to compile run:  
+**make**  
 
-To delete all intermediate files:
-make clean
+To delete all intermediate files:  
+**make clean**  
 
 After compiling, to transform json file, run, like this:
 
