@@ -12,7 +12,7 @@ To delete all intermediate files:
 
 After compiling, to transform json file, run, like this:
 
-./json2xml <example/test1.json >result.xml 
+**./json2xml &lt;example/test1.json &gt;result.xml** 
 
 *There are two JSON files in the example directory.*  
 *(Both examples are copied from the web)*  
