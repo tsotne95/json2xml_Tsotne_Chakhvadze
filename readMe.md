@@ -1,18 +1,27 @@
-JSON2XML
+**JSON2XML**
 
 It transforms the json file into an XML file.
 
-To use, it is necessary to install the programs: **gcc, bison and flex.**
+To use, it is necessary to install the programs:
+  - gcc
+  - bison
+  - flex
 
 to compile run:  
-**make**  
+```bash
+make
+```
 
 To delete all intermediate files:  
-**make clean**  
+```bash
+make clean
+```
 
 After compiling, to transform json file, run, like this:
 
-**./json2xml &lt;example/test1.json &gt;result.xml** 
+```bash
+./json2xml &lt;example/test1.json &gt;result.xml
+```
 
 *There are two JSON files in the example directory.*  
 *(Both examples are copied from the web)*  
@@ -20,7 +29,7 @@ After compiling, to transform json file, run, like this:
 
 
 And to see the results, run command:  
-
+```bash
 gedit result.xml&
-
+```
 
